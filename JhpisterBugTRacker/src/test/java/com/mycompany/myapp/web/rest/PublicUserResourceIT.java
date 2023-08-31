@@ -4,8 +4,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.security.test.web.reactive.server.SecurityMockServerConfigurers.csrf;
 
 import com.mycompany.myapp.IntegrationTest;
-import com.mycompany.myapp.config.Constants;
-import com.mycompany.myapp.config.TestSecurityConfiguration;
 import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.repository.EntityManager;
 import com.mycompany.myapp.repository.UserRepository;
